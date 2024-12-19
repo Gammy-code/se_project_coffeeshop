@@ -13,14 +13,15 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
-  margin: 0;
+  margin: 119px 0 0;
 }
 .about__title {
   max-width: 251px;
-  font-family: "Inter", "Arial", "sans-serif";
+  font-family: "Inter", "Arial", sans-serif;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
+  margin: 0;
 }
 .about__circle {
   position: absolute;
@@ -33,10 +34,12 @@
   z-index: -1;
 }
 .about__paragraph {
-  font-family: "Noto Serif", "Times New Roman", "serif";
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
+  margin: 0;
 }
+
 .about__circle_animation_blurred {
   animation: pulsate 1.3s ease-in-out 0s infinite;
 }
