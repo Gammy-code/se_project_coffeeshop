@@ -54,6 +54,7 @@
   font-size: 16px;
   line-height: 20px;
   color: #6f6f6f;
+  align-items: end;
 }
 .header__paragraph {
   margin: 0;
